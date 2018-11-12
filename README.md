@@ -1,2 +1,2 @@
 # Udacity
-This repository contains all udacity nanodegrees I've ever done.
+This repository contains all my udacity nanodegree projects.
