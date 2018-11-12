@@ -1,0 +1,98 @@
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Arima Madurai';
+}
+
+header, main {
+	width: 100%;
+}
+
+hr {
+	width: 98%;
+	border-width: 4px;
+}
+
+#header {
+	margin-top: -200px;
+	text-align: right;
+	padding: 1em;
+}
+
+#header h1 {
+	font-size: 50px;
+	margin-bottom: -20px;
+}
+
+#header h3 {
+	font-size: 22px;
+}
+
+header img {
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+	margin-top: 40px;
+}
+
+#places_to_visit {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section h3 {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+
+section h4 {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.section_item {
+	display: flex;
+	flex-wrap: wrap;
+	width: 31%;
+	padding: 1%;
+	text-align: justify;
+}
+
+section img {
+	width: 100%;
+	height: 200px;
+}
+
+@media screen and (max-width: 933px) {
+	body {
+		width: auto;
+	}
+
+	.section_item {
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	main article img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#header {
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	header img {
+		margin-left: 120px;
+		margin-bottom: -20px;	
+	}
+}
